@@ -1,0 +1,25 @@
+@font-face{
+    src: url(../fontes/nany.ttf);
+    font-family: "nany";
+}
+
+
+body{
+    background: #970005;
+}
+
+#titulo{
+    text-align: center;
+    font-family: nany;
+    font-size: 50px;
+    color: #fff; 
+}
+#titulo:hover{
+    color: #75ace2;
+}
+#sub{
+    text-align: center;
+    font-family: nany;
+    font-size: 50px;
+    color: #fff;
+}
