@@ -3,23 +3,116 @@
     font-family: "nany";
 }
 
-/* teste*/
-body{
-    background: #970005;
+@font-face{
+    src: url(../fontes/Shiny Signature.ttf);
+    font-family: "letra";
 }
 
+@font-face{
+    src: url(../fontes/GengRimbaRegular.ttf);
+    font-family: "tres"
+}
+/* teste*/
+body{
+    background:url(../imagens/bolo-chocolate-morango.jpg);
+}
+#geral{
+    border: 3px solid;
+    border-radius: 26px 26px;
+    margin: 30px 14px;
+    background-color: #ff0000;
+
+    
+}
+
+
+
+    
+
+
+   
+
+
+
+
 #titulo{
-    text-align: center;
+    text-align: left;
     font-family: nany;
     font-size: 50px;
     color: #fff; 
 }
-#titulo:hover{
-    color: #75ace2;
-}
+
 #sub{
     text-align: center;
     font-family: nany;
     font-size: 50px;
     color: #fff;
+    background-color: red;
+    
+}
+h2{
+    text-align:center;
+    font-family: nany;
+    font-size: 20px;
+    padding: 30px;
+
+}
+h2 a{
+    padding: 20px;
+    border: solid #fff;
+
+}
+
+.barra{
+    text-align:center;
+    font-family: nany;
+    font-size: 28px;
+    margin-bottom: 5px;
+    background-color: #FFEFF2;
+    border: solid #000;
+    border-radius: 15px;
+    padding: 5px;
+    width: ;
+}
+
+.barra a{
+    border: solid #000;
+    border-radius: 15px;
+    color: #fff;
+    margin: 0 2px; 
+    color: black;
+    padding: px ;
+}
+
+
+#barradois{
+    text-align: center;
+    font-family: nany;
+    
+}
+#barradois a{
+    color: #fff;
+    font-size: 25px;
+}
+
+#text{
+    font-family: tres;
+    font-size: 19px;
+    border: 5px solid pink;
+    border-radius: 20px;
+}
+.bnt{
+    width:30px;
+    height:30px;
+    background-color: deeppink;
+    padding: 5px 10px;
+}
+
+#formulario{
+    border: 212px solid white;
+    border-radius: 26px 26px;
+    margin: 30px 14px;
+  
+}
+
 }
