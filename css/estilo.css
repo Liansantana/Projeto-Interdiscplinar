@@ -12,22 +12,34 @@
     src: url(../fontes/GengRimbaRegular.ttf);
     font-family: "tres"
 }
-/* teste*/
+
 body{
-    background:url(../imagens/bolo-chocolate-morango.jpg);
+    padding-top: 120px;
+    margin: 0px;
+    background: url(../imagens/fundo/fundo4.jpg) ;
+    margin-top:63px;
 }
 #geral{
     border: 3px solid;
     border-radius: 26px 26px;
-    margin: 30px 14px;
-    background-color: #ff0000;
+    margin: 30px px;
+    background-color: #9932CC;
+    border-radius: 0px 0px 26px 26px;
+}
 
-    
+header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 
-
-    
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
 
 
    
@@ -35,84 +47,170 @@ body{
 
 
 
-#titulo{
-    text-align: left;
-    font-family: nany;
-    font-size: 50px;
-    color: #fff; 
-}
+
+
 
 #sub{
     text-align: center;
     font-family: nany;
     font-size: 50px;
     color: #fff;
-    background-color: red;
     
-}
-h2{
-    text-align:center;
-    font-family: nany;
-    font-size: 20px;
-    padding: 30px;
-
-}
-h2 a{
-    padding: 20px;
-    border: solid #fff;
-
-}
-
-.barra{
-    text-align:center;
-    font-family: nany;
-    font-size: 28px;
-    margin-bottom: 5px;
-    background-color: #FFEFF2;
-    border: solid #000;
-    border-radius: 15px;
-    padding: 5px;
-    width: ;
-}
-
-.barra a{
-    border: solid #000;
-    border-radius: 15px;
-    color: #fff;
-    margin: 0 2px; 
-    color: black;
-    padding: px ;
-}
-
-
-#barradois{
-    text-align: center;
-    font-family: nany;
-    
-}
-#barradois a{
-    color: #fff;
-    font-size: 25px;
-}
-
-#text{
-    font-family: tres;
-    font-size: 19px;
-    border: 5px solid pink;
-    border-radius: 20px;
-}
-.bnt{
-    width:30px;
-    height:30px;
-    background-color: deeppink;
-    padding: 5px 10px;
-}
-
-#formulario{
-    border: 212px solid white;
-    border-radius: 26px 26px;
-    margin: 30px 14px;
   
 }
 
+
+
+
+
+
+
+
+.menu-cards {
+    box-sizing: border-box; 
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column; 
+
 }
+
+.card:nth-child(even) {
+   
+    align-self: flex-end; 
+    background-color:#FFEFD5;
+    ;
+}
+
+.card {
+    align-self: flex-start; 
+    width: 800px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: #FFEFD5; 
+    margin-top: 30px;
+
+    font-size: tres;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.card img {
+    width:166px;
+    height: 150px;0
+    position: flex;
+    margin: 0px;
+    padding: 0px;
+    float: left; 
+    border-right: 1px solid ;
+}
+.card:hover{
+    background-image: url(../imagens/whats/fundo3.jpg)  ;
+}
+#nanyhistoria{
+    border: 3px solid;
+    border-radius: 26px 26px;
+    
+    margin-top:184px;
+    background-color:#FFEFD5;
+    margin-right:40px;
+     margin-left:40px;
+}
+
+#produtos{
+
+    text-align: center;
+    background-color: #FFEFD5;
+    width:;
+    padding: 25px;
+
+
+}
+div h2{
+
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.fotos{
+    0% background-image: url("../imagens/whats/01.jpeg");
+    width: 691px;
+    height: 546px;
+    animation-name: prediocima;
+    animation-duration: 20s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    margin:auto;
+    margin-top:-40px;
+
+}
+    @keyframes prediocima  {
+    0%   {background-image: url("../imagens/whats/02.jpeg");}
+    20%  {background-image: url("../imagens/whats/03.jpeg");}
+    30%  {background-image: url("../imagens/whats/04.jpeg");}
+    60% {background-image: url("../imagens/whats/01.jpeg");}
+    70% {background-image: url("../imagens/whats/03.jpeg");}
+    }
+
+
+        
+
+    .tituloum{
+        text-align:center;
+        font-size:20px;
+        font-family:tres;
+    }
+  
+
+    .produtos{
+     border:4px solid;
+     border-radius: 30px;
+     margin-top:27px;
+     background-color: black;
+
+    }
+    *{
+        margin:0;
+        padding:0;
+    }
+    .img{
+        
+    }
+   
+
+
+    .fotosdois{
+        0% background-image: url("../imagens/whats/01.jpeg");
+        width: 700px;
+        height: 600px;
+        animation-name: prediocima;
+        animation-duration: 20s;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        margin:auto;
+        margin-top:-40px;
+    
+    }
+        @keyframes prediocima  {
+        0%   {background-image: url("../imagens/whats/02.jpeg");}
+        20%  {background-image: url("../imagens/whats/03.jpeg");}
+        30%  {background-image: url("../imagens/whats/04.jpeg");}
+        60% {background-image: url("../imagens/whats/01.jpeg");}
+        70% {background-image: url("../imagens/whats/03.jpeg");}
+        }
+
+
+
+    
+
+
+    
+    #fim{
+        border: 3px solid;
+    border-radius: 26px 26px;
+    margin: 30px px;
+    color:white;
+    border-radius: 0px 0px 26px 26px;
+       }
